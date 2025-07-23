@@ -49,7 +49,7 @@ function App() {
                       style={{ textAlign: "left" }}
                       onClick={() => clickDetail(index)}
                     >
-                      {`User Id : ${datum.userId}, Title : ${datum.title}`}
+                      {`Id : ${datum.id} - Title : ${datum.title}`}
                     </li>
                   ))
               ) : filteredData.length === 0 && searchVal !== "" ? (
@@ -61,7 +61,7 @@ function App() {
                     style={{ textAlign: "left" }}
                     onClick={() => clickDetail(index)}
                   >
-                    {`User Id : ${datum.userId}, Title : ${datum.title}`}
+                    {`Id : ${datum.id} - Title : ${datum.title}`}
                   </li>
                 ))
               )
