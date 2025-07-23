@@ -1,7 +1,7 @@
-const Textfield = ({ placeholder, id }) => {
+const Textfield = ({ placeholder, id, value, onChange }) => {
   return (
     <>
-      <input type="text" placeholder={placeholder} id={id} name={id} />
+      <input type="text" value={value} placeholder={placeholder} id={id} name={id} onChange={onChange} />
     </>
   );
 };

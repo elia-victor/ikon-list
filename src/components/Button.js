@@ -1,13 +1,12 @@
 const Button = ({ label, id, onClick }) => {
   return (
     <>
-      <Button
+      <button
         id={id}
-        type="button"
         onClick={onClick}
       >
         {label}
-      </Button>
+      </button>
     </>
   );
 };
