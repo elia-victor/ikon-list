@@ -52,8 +52,6 @@ function App() {
                       {`Id : ${datum.id} - Title : ${datum.title}`}
                     </li>
                   ))
-              ) : filteredData.length === 0 && searchVal !== "" ? (
-                  <h3> No Data </h3>
               ) : (
                 listData.map((datum, index) => (
                   <li
